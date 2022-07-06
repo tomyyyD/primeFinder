@@ -15,6 +15,7 @@ int Sieve::numPrimesOut()
 }
 
 int* Sieve::computePrimes(){
+
     int* primesList = new int[goal];
     primesList[0] = 2;
     int curNum = 3;
